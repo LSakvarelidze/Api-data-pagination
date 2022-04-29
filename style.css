@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 90%;
+}
+
+h1 {
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+}
